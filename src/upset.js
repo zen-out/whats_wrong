@@ -11,14 +11,16 @@ const { see, hourglass } = require("code_clarity")
  * @param {any}  location = undefined
  * @returns {any}
  */
-function upset(error, location = undefined) {
+function upset(error, location = undefined, expected = "") {
     let getError = make_legit.format(error, "string")
     hourglass.start(getError)
     see.problem(getError)
     see.how(location)
+    see.should(expected)
     return {
         error: getError,
-        location: location
+        location: location,
+        expected: expected
     }
 }
 
