@@ -29,5 +29,8 @@
         "@babel/core": "latest",
         "@babel/node": "latest",
         "babel-loader": "latest"
+    },
+    "exports": {
+        ".": "./dist/index.js"
     }
 }
