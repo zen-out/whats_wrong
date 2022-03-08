@@ -14,8 +14,6 @@
     "author": "Lesley Cheung (www.github.com/zen-out)",
     "license": "MIT",
     "dependencies": {
-        "code_clarity": "^1.0.22",
-        "explain_me": "latest",
         "make_legit": "^1.1.1",
         "whats_wrong": "latest"
     },
