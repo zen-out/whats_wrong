@@ -8,8 +8,8 @@
  ``` const whats_wrong =  require('whats_wrong')```
 
 ## If utilizing in html...: 
-```<script src="https://cdn.jsdelivr.net/npm/whats_wrong/dist/index.js"></script> ``` 
- ``` const output =  whats_wrong.method(parameter)```
+```  <script src="https://cdn.jsdelivr.net/npm/whats_wrong@1.1.0/dist/index.js"></script> ``` 
+ ``` const output =  whats_wrong.upset("error", "location", "expected")```
 
 <a name="upset"></a>
 
@@ -18,9 +18,9 @@
 **Date**: 2022-03-06  
 **Author**: zen-out  
 
-| Param | Type | Description |
-| --- | --- | --- |
-| error | <code>any</code> |  |
+| Param    | Type             | Description |
+|----------|------------------|-------------|
+| error    | <code>any</code> |             |
 | location | <code>any</code> | = undefined |
 
 **Example**  
