@@ -11,10 +11,7 @@
         "build": "rimraf dist/ && webpack",
         "test": "node __tests__/index.js"
     },
-    "author": [
-        "",
-        "Lesley Cheung (www.github.com/zen-out)"
-    ],
+    "author": "Lesley Cheung (www.github.com/zen-out)",
     "license": "MIT",
     "dependencies": {
         "code_clarity": "^1.0.22",
