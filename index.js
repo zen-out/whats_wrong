@@ -6,6 +6,6 @@
 
             function t(t) { var r = arguments.length > 1 && void 0 !== arguments[1] ? arguments[1] : "",
                     o = arguments.length > 2 && void 0 !== arguments[2] ? arguments[2] : "",
-                    n = (0, e.finalFormat)(t, "string"),
+                    n = (0, e.format)(t, "string"),
                     i = { error: n, location: r, expected: o },
-                    a = (0, e.finalFormat)(i, "string"); return console.log("\n*** check ***\n" + a + "\n*** end ***\n"), i } })(), n })() }));
+                    a = (0, e.format)(i, "string"); return console.log("\n*** check ***\n" + a + "\n*** end ***\n"), i } })(), n })() }));
