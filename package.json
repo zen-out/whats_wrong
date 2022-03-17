@@ -10,9 +10,6 @@
     },
     "author": "Lesley Cheung (www.github.com/zen-out)",
     "license": "MIT",
-    "dependencies": {
-        "make_legit": "^1.4.10"
-    },
     "homepage": "https://zen-out.github.io/packages/whats_wrong",
     "devDependencies": {},
     "repository": {
