@@ -1,4 +1,4 @@
-const whats_wrong = require("./index.js")
+const whats_wrong = require("./dist/index.js")
 
 let output = whats_wrong.upset("hello", "hello")
 
